@@ -1,0 +1,19 @@
+<div ng-controller="page1Controller">
+    <form name="pg1">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <md-input-container class="md-block">
+                    <label>First Name</label>
+                    <input ng-model="user.firstname" type="text">
+                </md-input-container><br>
+                <md-input-container class="md-block">
+                    <label>Last Name</label>
+                    <input ng-model="user.lastname" type="text">
+                </md-input-container><br>
+                <md-button class="md-raised md-primary" ng-click="submit();">Submit</md-button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </form>
+</div>  
