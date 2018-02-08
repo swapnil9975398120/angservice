@@ -8,6 +8,6 @@ function page1Controller($scope,myService){
     $scope.submit = function(){
         alert("sfdsdf");
         console.log("page1 data"+JSON.stringify($scope.user));
-        $scope.myService.user = $scope.user; 
+        myService.setUser($scope.user); 
     }
 }
